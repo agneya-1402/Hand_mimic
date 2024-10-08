@@ -47,12 +47,12 @@ Below is the circuit diagram for connecting the Arduino and servo motors:
 
 1. Clone this repository:
    ```
-   git clone https://github.com/yourusername/hand-mimicking-robot.git
+   git clone https://github.com/agneya-1402/Hand-mimic.git
    ```
 
 2. Install required Python libraries:
    ```
-   pip install mediapipe pyserial
+   pip install opencv-python mediapipe pyserial
    ```
 
 3. Upload the Arduino sketch to your Arduino board using the Arduino IDE.
@@ -65,7 +65,7 @@ Below is the circuit diagram for connecting the Arduino and servo motors:
 
 2. Run the Python script:
    ```
-   python hand_tracking.py
+   python main.py
    ```
 
 3. Position your hand in front of the camera.
